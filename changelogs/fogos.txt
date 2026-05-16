@@ -1,1 +1,69 @@
-#TEST
+HertzifyOS Android 16 for Motorola Moto G34/45
+
+* Vanilla & Gapps available
+* MotoCamera & Dolby are included
+* Rooted with ReSUkiSU
+* Signed build
+
+How to install:
+==============================
+# VANILLA #
+* Boot to TWRP/OFOX -> Wipe data -> Flash ROM.zip -> (Flash TWRP/OFOX to ramdisk if you want to flash Gapps) Reboot Recovery -> Flash Gapps.zip -> Factory reset (format data) -> Reboot system
+* reflash boot.img if you wanted ReSukiSU root
+
+# GAPPS #
+* Boot to TWRP/OFOX -> Wipe data -> Flash ROM.zip -> Reboot recovery -> Format data -> reboot system
+
+Credits:
+==============================
+- MikeNG
+- TheMuppets
+- Vishal
+- Herobuxx
+- DodyIrawan
+- Byben
+- All other authors of my cherry-picks
+- Meow Projekt for the Dolby
+
+### 16/05/2026 ###
+Device changes:
+==============================
+- kernel upstream
+- misc. improvement
+
+Latest source changes:
+==============================
+=== 2026-05-10  ===
+
+[android_frameworks_base]
+- New Crowdin updates (#13) (2853e1c) by HDzungx
+- services: Skipping atom stats pulling on none eng builds (6ba36fc) by rmp22
+- services: Optimizing navigation bar draws (c3ee059) by rmp22
+- services: Caching isOverlappingWithNavBar to avoid redundant rectangl… (bf7677a) by rmp22
+- services: Optimizing redundant status bar top hide checks (9fa84a9) by rmp22
+- services: Disabling dma buff stats pull (2dea29d) by rmp22
+- services: Optimizing window rounded corners updates (1b2a480) by rmp22
+- services: Optimizing letterbox updates (e6f9922) by rmp22
+- services: Optimizing wallpaper zoom (20a4d01) by rmp22
+- services: Optimizing wallpaper controller traversals (9b76197) by rmp22
+- services: Optimizing wms prop | settings reads (dd366af) by rmp22
+- Fix system_server deadlock between DisplayManagerService and External… (cad2b20) by Alekhya
+- InputMethodManagerService: retry IME show after dummy editor handoff (9de6392) by leegarchat
+- imm: guard stale IME target hide against concurrent show request (e8b34c5) by Joey
+- backport fix for stuck IME input from May 2026 Pixel update (354f645) by Dmitry Muhomor
+- feat: sleep mode deep sleep toggle (962a29b) by Dmitrii
+- base: Introduce automated Sleep Mode [1/2] (a0f1dac) by Anushek Prasal
+
+=== 2026-05-09  ===
+
+[android_packages_apps_Settings]
+- New Crowdin updates (#15) (37506c7) by HDzungx
+- feat: sleep mode deep sleep toggle (bd2bc75) by shutter-cat
+- Settings: Introduce automated Sleep Mode [2/2] (e597560) by Anushek Prasal
+- Update Crowdin configuration file (b79ae3c) by HDzungx
+- development: greyed-out `Disable HW overlays` option (829ac9d) by Arindam Bhattacharjee
+- Introduce per app GPU screen composition setting [2/2] (b5f57b4) by Arindam Bhattacharjee
+
+[android_packages_apps_Launcher3]
+- Launcher3: Remove duplicate quickspace pref (c621255) by Ghosuto
+- Launcher3: Fixing stack trace cpu drain (4d223fe) by rmp22

@@ -1,1 +1,13 @@
-#PLACEHOLDER
+{
+    "response": [
+        {
+            "datetime": 1778932565,
+            "filename": "HertzifyOS-1.7-fogos-20260516-UNOFFICIAL-GAPPS.zip",
+            "id": "d843c7a93f279dd4fb6b3bda5a46de5ac6aa2d484031cd1c7d310f8d591e5b8e",
+            "romtype": "UNOFFICIAL",
+            "size": 2243780351,
+            "url": "https://sourceforge.net/projects/fogos-random/files/Hertzify/HertzifyOS-1.7-fogos-20260516-UNOFFICIAL-GAPPS.zip/download",
+            "version": "1.7"
+        }
+    ]
+}
